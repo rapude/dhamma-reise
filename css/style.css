@@ -1,0 +1,155 @@
+/* CSS Document */
+body {
+	background-color: #FFFFCC;
+	font-family: "Trebuchet MS", Arial, Tahoma, Verdana, sans-serif;
+  color:#333;
+	text-align: center;
+}
+#container {
+ position:relative;
+	margin:0 auto;
+	text-align: left;
+	width:900px;
+}
+
+#header_imp {
+  width:450px;
+  height:relative;
+  padding:25px;
+  color:#333;
+  border:1px solid #666;
+  background: #FFFF99;
+  text-align:left;
+}
+
+#impressum {
+  width:820px;
+  height:820px;
+  padding:25px;
+  color:#333;
+  border:1px solid #666;
+  text-align:left
+}
+
+
+A:link,
+A:active,
+A:visited,
+A:hover {
+  color:#9f1a0b;
+  text-decoration:underline;
+}
+A:hover {
+  text-decoration:none;
+}
+
+
+A.event:link,
+A.event:active,
+A.event:visited,
+A.event:hover {
+  color:#9f1a0b;
+  text-decoration:underline;
+}
+A.event:hover {
+  text-decoration:none;
+}
+
+
+#header {
+  width:820px;
+  height:330px;
+  padding:25px;
+  color:#333;
+	border:1px solid #666;
+	background: #FFFF99 url(../img/buddhastatue.jpg) 500px 25px no-repeat;	
+}
+
+H1 {
+  font-size:36px;
+  margin:0 0 25px 0;
+  color:#9f1a0b
+}
+H2 {
+  font-size:24px;
+  margin:0 0 0px 0;
+  color:#333;
+}
+
+H3 {
+  font-size:18px;
+  margin:0 0 25 0;
+  color:#9f1a0b;
+}
+
+strong {
+  font-size:14px;
+  margin:0 0 0 0;
+  color:#9f1a0b;
+}
+
+#header P {
+  width:450px;
+}
+
+#frame {
+  width:820px;
+	border:1px solid #666;
+	background-color: #FFFF99;
+  padding:25px;
+}
+TABLE, TR, TD, TH {
+	font: 15px  "Trebuchet MS", Arial, Tahoma, Verdana, sans-serif;
+	vertical-align:top;
+	border-spacing: 0px;
+	border-style: none;
+	border-collapse: collapse;
+  color:#333;
+	}
+	
+TH {
+  text-align:left;
+  color:#fff;
+	background-color: #999;
+  font-weight:700;
+}	
+TR.odd {
+	background-color: #E8E8E8;
+}
+TR.even {
+	background-color: #fff;
+}
+
+.box {
+  width:820px;
+  color:#000;
+	background-color: #fff;
+}
+
+.hid_css {
+    display:none;
+}
+
+INPUT.submit {
+  border:1px solid #999;
+  background-color:#fff;
+  color:#9f1a0b;
+  font-weight:700;
+  padding:2px 12px;
+  cursor:pointer;
+}
+INPUT.submit:hover {
+  border:1px solid #999;
+  background-color:#ccc;
+  color:#9f1a0b;
+  font-weight:700;
+}
+
+#footer {
+  width:850px;
+  padding:5px 25px;
+  text-align:center;
+}
+
+
+

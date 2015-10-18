@@ -1,0 +1,145 @@
+/* CSS Document */
+body {
+	background-color: #879030;
+	font-family: "Trebuchet MS", Arial, Tahoma, Verdana, sans-serif;
+  color:#9F1A0B;
+	text-align: center;
+}
+#container {
+ position:relative;
+	margin:0 auto;
+	text-align: left;
+	width:900px;
+}
+
+
+A:link,
+A:active,
+A:visited,
+A:hover {
+  color:#fff;
+  text-decoration:underline;
+}
+A:hover {
+  text-decoration:none;
+  background-color:#fff;
+  color:#f7971d;
+}
+
+
+A.event:link,
+A.event:active,
+A.event:visited,
+A.event:hover {
+  color:#f7971d;
+  text-decoration:underline;
+}
+A.event:hover {
+  text-decoration:none;
+  color:#f7971d;
+  background-color:#9F1A0B;
+}
+
+
+#header {
+  width:850px;
+  height:260px;
+  padding:25px;
+  color:#9f1a0b;
+  border:2px solid #fff;
+  background: #f7971d url(../img/buddhastatue.jpg) 527px 25px no-repeat;	
+}
+
+#header_imp {
+  width:450px;
+  height:relative;
+  padding:25px;
+  color:#9f1a0b;
+  border:2px solid #fff;
+  background:#f7971d;
+  text-align:left;
+}
+
+.hid_css {
+    display:none;
+}
+
+#impressum {
+ position:relative;
+	margin:0 auto;
+	text-align: left;
+	width:900px;
+	text-align:left;
+}
+
+
+H1 {
+  font-size:36px;
+  margin:0 0 25px 0;
+}
+H2 {
+  font-size:24px;
+  margin:0 0 25px 0;
+  color:#9F1A0B;
+}
+#header P {
+  width:450px;
+}
+
+#frame {
+  width:850px;
+	border:2px solid #fff;
+	background-color: #f7971d;
+  padding:25px;
+}
+TABLE, TR, TD, TH {
+	font: 15px  "Trebuchet MS", Arial, Tahoma, Verdana, sans-serif;
+	vertical-align:top;
+	border-spacing: 0px;
+	border-style: none;
+	border-collapse: collapse;
+  color:#9F1A0B;
+	}
+	
+TH {
+  text-align:left;
+  color:#fff;
+	background-color: #9F1A0B;
+  font-weight:700;
+}	
+TR.odd {
+	background-color: #E8E8E8;
+}
+TR.even {
+	background-color: #fff;
+}
+
+.box {
+  width:850px;
+  color:#000;
+	background-color: #fff;
+}
+
+INPUT.submit {
+  border:1px solid #999;
+  background-color:#f7971d;
+  color:#fff;
+  font-weight:700;
+  padding:2px 12px;
+  cursor:pointer;
+}
+INPUT.submit:hover {
+  border:1px solid #999;
+  background-color:#fff;
+  color:#f7971d;
+  font-weight:700;
+}
+
+#footer {
+  width:850px;
+  padding:5px 25px;
+  text-align:center;
+}
+
+
+
